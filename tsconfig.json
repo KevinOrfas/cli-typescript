@@ -1,0 +1,17 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "test/**/*.ts"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "lib": ["dom", "es6"],
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  }
+}

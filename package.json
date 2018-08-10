@@ -1,0 +1,25 @@
+{
+	"name": "driftrock",
+	"version": "1.0.0",
+	"bin": {
+		"driftrock": "bin/driftrock"
+	},
+	"scripts": {
+		"test": "mocha --exit --reporter spec --compilers ts:ts-node/register 'test/*.test.ts'"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"minimist": "^1.2.0",
+		"ora": "^3.0.0"
+	},
+	"devDependencies": {
+		"@types/chai-http": "^3.0.5",
+		"@types/minimist": "^1.2.0",
+		"@types/ora": "^1.3.4",
+		"chai": "^4.1.2",
+		"chai-http": "^3.0.0",
+		"mocha": "^5.0.0",
+		"ts-node": "^4.1.0",
+		"typescript": "2.7.2"
+	}
+}
